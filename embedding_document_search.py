@@ -1,4 +1,4 @@
-myopenkey = "sk-sUwUCfuC22LRSxfeV3iyT3BlbkFJ7jtbNlwL"
+myopenkey = ""
 
 from langchain.document_loaders import TextLoader
 loader = TextLoader(file_path="mypersonal.txt")

@@ -1,4 +1,4 @@
-myopenkey = ""
+myopenkey = "<paste your openai key>"
 
 from langchain.document_loaders import TextLoader
 loader = TextLoader(file_path="mypersonal.txt")
@@ -14,7 +14,7 @@ from langchain.embeddings import OpenAIEmbeddings
 myembedmodel = OpenAIEmbeddings(openai_api_key=myopenkey)
 
 
-mypinekey = "93eaf3db-f010-44ce-b795-f031de17"
+mypinekey = "<paste your pinrcone key>"
 from langchain.vectorstores import Pinecone
 # pip  install pinecone-client
 import pinecone
